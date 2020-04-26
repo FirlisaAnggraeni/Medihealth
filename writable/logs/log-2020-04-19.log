@@ -1,0 +1,19 @@
+CRITICAL - 2020-04-19 09:25:04 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+#0 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Router\Router.php(178): CodeIgniter\Router\RouteCollection->getFilterForRoute('cart')
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('cart')
+#2 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-04-19 09:26:54 --> auth, guest filter must have a matching alias defined.
+#0 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Filters\Filters.php(312): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth, guest')
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(367): CodeIgniter\Filters\Filters->enableFilter('auth, guest', 'before')
+#2 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-04-19 09:27:00 --> auth,guest filter must have a matching alias defined.
+#0 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Filters\Filters.php(312): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth,guest')
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(367): CodeIgniter\Filters\Filters->enableFilter('auth,guest', 'before')
+#2 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

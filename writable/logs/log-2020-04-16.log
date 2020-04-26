@@ -1,0 +1,229 @@
+CRITICAL - 2020-04-16 06:22:57 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-04-16 06:25:44 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-04-16 06:28:45 --> Cannot make non static method CodeIgniter\Model::save() static in class App\Models\User
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-04-16 06:33:10 --> Cannot make non static method CodeIgniter\Model::save() static in class App\Models\User
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-04-16 06:48:26 --> Cannot make non static method CodeIgniter\Model::save() static in class App\Models\User
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-04-16 06:52:36 --> Declaration of App\Models\User::save($data) must be compatible with CodeIgniter\Model::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-04-16 06:54:09 --> Declaration of App\Models\User::update($data, $id) must be compatible with CodeIgniter\Model::update($id = NULL, $data = NULL): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-04-16 06:55:07 --> Unknown column 'phone' in 'field list'
+#0 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\medihealth\app\Models\User.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\medihealth\app\Controllers\User.php(21): App\Models\User->create(Array)
+#6 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\User->register()
+#7 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-04-16 08:38:51 --> 
+#0 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\medihealth\app\Controllers\User.php(22): redirect('/login')
+#3 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\User->register()
+#4 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-04-16 09:23:36 --> Call to undefined function App\Controllers\alert()
+#0 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\User->login()
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-04-16 09:25:52 --> Call to undefined function App\Controllers\alert()
+#0 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\User->login()
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-04-16 09:26:10 --> Call to undefined function App\Controllers\alert()
+#0 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\User->login()
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-04-16 09:26:12 --> Call to undefined function App\Controllers\alert()
+#0 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\User->login()
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-04-16 09:28:36 --> Call to undefined function App\Controllers\alert()
+#0 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\User->login()
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-04-16 09:28:43 --> Call to undefined function App\Controllers\alert()
+#0 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\User->login()
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-04-16 09:28:45 --> Call to undefined function App\Controllers\alert()
+#0 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\User->login()
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-04-16 09:30:45 --> Call to undefined function App\Controllers\alert()
+#0 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\User->login()
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-04-16 09:42:27 --> Class 'App\Libraries\Alert' not found
+#0 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\User->login()
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-04-16 10:16:37 --> Undefined property: App\Controllers\User::$session
+#0 C:\xampp\htdocs\medihealth\app\Controllers\User.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\User->login()
+#2 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-04-16 10:16:47 --> Undefined variable: session
+#0 C:\xampp\htdocs\medihealth\app\Controllers\User.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\User->login()
+#2 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-04-16 10:17:11 --> Undefined property: App\Controllers\User::$session
+#0 C:\xampp\htdocs\medihealth\app\Controllers\User.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\User->login()
+#2 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-04-16 10:33:29 --> Invalid file: content/home.php
+#0 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('content/home.ph...')
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('content/home', Array, true)
+#2 C:\xampp\htdocs\medihealth\app\Controllers\Web.php(7): view('content/home')
+#3 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Web->home()
+#4 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-04-16 10:33:49 --> Invalid file: content/home.php
+#0 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('content/home.ph...')
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('content/home', Array, true)
+#2 C:\xampp\htdocs\medihealth\app\Controllers\Web.php(7): view('content/home')
+#3 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Web->home()
+#4 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-04-16 10:36:12 --> Invalid file: content/home.php
+#0 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('content/home.ph...')
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('content/home', Array, true)
+#2 C:\xampp\htdocs\medihealth\app\Controllers\Web.php(7): view('content/home')
+#3 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Web->home()
+#4 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-04-16 10:36:37 --> Invalid file: content/home.php
+#0 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('content/home.ph...')
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('content/home', Array, true)
+#2 C:\xampp\htdocs\medihealth\app\Controllers\Web.php(7): view('content/home')
+#3 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Web->home()
+#4 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-04-16 10:37:55 --> Argument 1 passed to CodeIgniter\Router\RouteCollection::group() must be of the type string, null given, called in C:\xampp\htdocs\medihealth\app\Config\Routes.php on line 41
+#0 C:\xampp\htdocs\medihealth\app\Config\Routes.php(41): CodeIgniter\Router\RouteCollection->group(NULL, Array, Object(Closure))
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(772): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-04-16 14:06:15 --> Unknown column 'description' in 'field list'
+#0 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\medihealth\app\Models\User.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\medihealth\app\Controllers\Product.php(18): App\Models\User->create(Array)
+#6 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Product->create()
+#7 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-04-16 14:07:08 --> Unknown column 'description' in 'field list'
+#0 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\medihealth\app\Models\User.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\medihealth\app\Controllers\Product.php(18): App\Models\User->create(Array)
+#6 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Product->create()
+#7 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-04-16 14:07:40 --> Unknown column 'description' in 'field list'
+#0 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\medihealth\app\Models\User.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\medihealth\app\Controllers\Product.php(18): App\Models\User->create(Array)
+#6 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Product->create()
+#7 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-04-16 21:08:33 --> Trying to get property 'name' of non-object
+#0 C:\xampp\htdocs\medihealth\app\Views\content\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('content/index', Array, true)
+#3 C:\xampp\htdocs\medihealth\app\Controllers\Web.php(19): view('content/index', Array)
+#4 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Web->home()
+#5 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\medihealth\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\medihealth\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
